@@ -12,7 +12,7 @@ Take your validator infrastructure to the next level of security and availabilit
 
 ## Design
 
-Validator operators balance operational and risk tradeoffs to avoid penalties via slashing for liveliness faults or double signing blocks.
+Validator operators balance operational and risk tradeoffs to avoid penalties via slashing for liveness faults or double signing blocks.
 
 Traditional high-availability systems where the keys exist on hot spares risk double signing if there are failover detection bugs. Low-availability systems, or manual failover, risk downtime if manual intervention cannot respond in a timely manner.
 
