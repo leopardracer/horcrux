@@ -24,7 +24,7 @@ jobs:
 
       # checkout horcrux
       - name: checkout horcrux
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
 
       # run tests
       - name: run horcrux tests
@@ -54,7 +54,7 @@ jobs:
 
       # checkout horcrux
       - name: checkout horcrux
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
 
       # run test matrix
       - name: run test
